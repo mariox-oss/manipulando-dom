@@ -1,6 +1,6 @@
 :root {
-    --main-cinza: #CCCCCC;
-    --main-branco: #FFFFFF;
+    --main-cinza: #48ff00de;
+    --main-branco: #07ff1b83;
     --main-preto: #000000;
 }
 
@@ -9,12 +9,12 @@
 }
 
 body {
-    background: url(../img/fundo.jpg);
+    background: url(../img/download\ \(1\).jpeg);
     background-position: center center;
     background-size: cover cover;
     padding: 0;
     margin: 0;
-    font-weight: 300;
+    font-weight: 1000;
 }
 
 body, input {
@@ -33,16 +33,16 @@ main {
     background: url(../img/estrutura.png) no-repeat;
     background-position: center center;
     margin: 0;
-    flex-basis: 40%;
+    flex-basis:120%;
     position: relative;
 }
 
 .robo {
-    height: 110%; 
+    height: 100%; 
     z-index: 1;
     position: absolute;
     left: -20%;
-    top: -5%;
+    top: -15%;
 }
 
 .titulo {
@@ -50,33 +50,33 @@ main {
     font-weight: 500;
     font-size: 130px;
     position: absolute;
-    bottom: 7rem;
-    left: -3rem;
-    line-height: 0.8;
-    writing-mode: horizontal-tb;
+    bottom: 0%;
+    left: 20rem;
+    line-height: 0.5;
+    writing-mode:vertical-rl;
     text-orientation: mixed;
-    color: rgba(255,255,255,0.8)
+    color: rgba(200, 0, 65, 0.8)
 }
 
 .box {
-    background: rgba(211, 8, 8, 0.6);
-    clip-path: polygon(calc(100% - 30px) 0, 100% 30px, 100% calc(100% - 30px), calc(100% - 30px) 100%, 30px 100%, 0 calc(100% - 30px), 0 30px, 30px 0);
-    border-left: 5px solid var(--main-cinza);
+    background: rgba(0, 0, 0, 0.6);
+    clip-path: polygon(calc(89% - 40px) 0, 100% 30px, 100% calc(100% - 30px), calc(100% - 30px) 100%, 30px 100%, 0 calc(100% - 30px), 0 30px, 30px 0);
+    border-left: 8px solid var(--main-cinza);
     height: 80%;
 }
 
 /****************************** Equipamentos *****/
 
 .equipamentos {
-    flex-basis: 32%;
+    flex-basis: 55%;
 }
 
 .montador {
-    height: 100%;;
+    height: 110%;;
 }
 
 .montador-conteudo {
-    padding: 2em 10%;
+    padding: 1em 20%;
 }
 
 .peca {
